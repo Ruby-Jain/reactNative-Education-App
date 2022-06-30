@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35594125283272B7001C3BCA /* onlineEduAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35594124283272B7001C3BCA /* onlineEduAppApp.swift */; };
+		35594127283272B7001C3BCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35594126283272B7001C3BCA /* ContentView.swift */; };
+		35594129283272C0001C3BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35594128283272C0001C3BCA /* Assets.xcassets */; };
+		3559412C283272C0001C3BCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3559412B283272C0001C3BCA /* Preview Assets.xcassets */; };
+		35594137283272C0001C3BCA /* onlineEduAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35594136283272C0001C3BCA /* onlineEduAppTests.swift */; };
+		35594141283272C0001C3BCA /* onlineEduAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35594140283272C0001C3BCA /* onlineEduAppUITests.swift */; };
+		35594143283272C0001C3BCA /* onlineEduAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35594142283272C0001C3BCA /* onlineEduAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35594133283272C0001C3BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35594119283272B7001C3BCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35594120283272B7001C3BCA;
+			remoteInfo = onlineEduApp;
+		};
+		3559413D283272C0001C3BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35594119283272B7001C3BCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35594120283272B7001C3BCA;
+			remoteInfo = onlineEduApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35594121283272B7001C3BCA /* onlineEduApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onlineEduApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35594124283272B7001C3BCA /* onlineEduAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onlineEduAppApp.swift; sourceTree = "<group>"; };
+		35594126283272B7001C3BCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		35594128283272C0001C3BCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3559412B283272C0001C3BCA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3559412D283272C0001C3BCA /* onlineEduApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = onlineEduApp.entitlements; sourceTree = "<group>"; };
+		35594132283272C0001C3BCA /* onlineEduAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onlineEduAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35594136283272C0001C3BCA /* onlineEduAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onlineEduAppTests.swift; sourceTree = "<group>"; };
+		3559413C283272C0001C3BCA /* onlineEduAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onlineEduAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35594140283272C0001C3BCA /* onlineEduAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onlineEduAppUITests.swift; sourceTree = "<group>"; };
+		35594142283272C0001C3BCA /* onlineEduAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onlineEduAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3559411E283272B7001C3BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3559412F283272C0001C3BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35594139283272C0001C3BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35594118283272B7001C3BCA = {
+			isa = PBXGroup;
+			children = (
+				35594123283272B7001C3BCA /* onlineEduApp */,
+				35594135283272C0001C3BCA /* onlineEduAppTests */,
+				3559413F283272C0001C3BCA /* onlineEduAppUITests */,
+				35594122283272B7001C3BCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35594122283272B7001C3BCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35594121283272B7001C3BCA /* onlineEduApp.app */,
+				35594132283272C0001C3BCA /* onlineEduAppTests.xctest */,
+				3559413C283272C0001C3BCA /* onlineEduAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35594123283272B7001C3BCA /* onlineEduApp */ = {
+			isa = PBXGroup;
+			children = (
+				35594124283272B7001C3BCA /* onlineEduAppApp.swift */,
+				35594126283272B7001C3BCA /* ContentView.swift */,
+				35594128283272C0001C3BCA /* Assets.xcassets */,
+				3559412D283272C0001C3BCA /* onlineEduApp.entitlements */,
+				3559412A283272C0001C3BCA /* Preview Content */,
+			);
+			path = onlineEduApp;
+			sourceTree = "<group>";
+		};
+		3559412A283272C0001C3BCA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3559412B283272C0001C3BCA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		35594135283272C0001C3BCA /* onlineEduAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				35594136283272C0001C3BCA /* onlineEduAppTests.swift */,
+			);
+			path = onlineEduAppTests;
+			sourceTree = "<group>";
+		};
+		3559413F283272C0001C3BCA /* onlineEduAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35594140283272C0001C3BCA /* onlineEduAppUITests.swift */,
+				35594142283272C0001C3BCA /* onlineEduAppUITestsLaunchTests.swift */,
+			);
+			path = onlineEduAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35594120283272B7001C3BCA /* onlineEduApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35594146283272C0001C3BCA /* Build configuration list for PBXNativeTarget "onlineEduApp" */;
+			buildPhases = (
+				3559411D283272B7001C3BCA /* Sources */,
+				3559411E283272B7001C3BCA /* Frameworks */,
+				3559411F283272B7001C3BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = onlineEduApp;
+			productName = onlineEduApp;
+			productReference = 35594121283272B7001C3BCA /* onlineEduApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35594131283272C0001C3BCA /* onlineEduAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35594149283272C0001C3BCA /* Build configuration list for PBXNativeTarget "onlineEduAppTests" */;
+			buildPhases = (
+				3559412E283272C0001C3BCA /* Sources */,
+				3559412F283272C0001C3BCA /* Frameworks */,
+				35594130283272C0001C3BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35594134283272C0001C3BCA /* PBXTargetDependency */,
+			);
+			name = onlineEduAppTests;
+			productName = onlineEduAppTests;
+			productReference = 35594132283272C0001C3BCA /* onlineEduAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3559413B283272C0001C3BCA /* onlineEduAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3559414C283272C0001C3BCA /* Build configuration list for PBXNativeTarget "onlineEduAppUITests" */;
+			buildPhases = (
+				35594138283272C0001C3BCA /* Sources */,
+				35594139283272C0001C3BCA /* Frameworks */,
+				3559413A283272C0001C3BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3559413E283272C0001C3BCA /* PBXTargetDependency */,
+			);
+			name = onlineEduAppUITests;
+			productName = onlineEduAppUITests;
+			productReference = 3559413C283272C0001C3BCA /* onlineEduAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35594119283272B7001C3BCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					35594120283272B7001C3BCA = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					35594131283272C0001C3BCA = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 35594120283272B7001C3BCA;
+					};
+					3559413B283272C0001C3BCA = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 35594120283272B7001C3BCA;
+					};
+				};
+			};
+			buildConfigurationList = 3559411C283272B7001C3BCA /* Build configuration list for PBXProject "onlineEduApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35594118283272B7001C3BCA;
+			productRefGroup = 35594122283272B7001C3BCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35594120283272B7001C3BCA /* onlineEduApp */,
+				35594131283272C0001C3BCA /* onlineEduAppTests */,
+				3559413B283272C0001C3BCA /* onlineEduAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3559411F283272B7001C3BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3559412C283272C0001C3BCA /* Preview Assets.xcassets in Resources */,
+				35594129283272C0001C3BCA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35594130283272C0001C3BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3559413A283272C0001C3BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3559411D283272B7001C3BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35594127283272B7001C3BCA /* ContentView.swift in Sources */,
+				35594125283272B7001C3BCA /* onlineEduAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3559412E283272C0001C3BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35594137283272C0001C3BCA /* onlineEduAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35594138283272C0001C3BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35594143283272C0001C3BCA /* onlineEduAppUITestsLaunchTests.swift in Sources */,
+				35594141283272C0001C3BCA /* onlineEduAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35594134283272C0001C3BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35594120283272B7001C3BCA /* onlineEduApp */;
+			targetProxy = 35594133283272C0001C3BCA /* PBXContainerItemProxy */;
+		};
+		3559413E283272C0001C3BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35594120283272B7001C3BCA /* onlineEduApp */;
+			targetProxy = 3559413D283272C0001C3BCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		35594144283272C0001C3BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35594145283272C0001C3BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		35594147283272C0001C3BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = onlineEduApp/onlineEduApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"onlineEduApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactNativeApp.onlineEduApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		35594148283272C0001C3BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = onlineEduApp/onlineEduApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"onlineEduApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactNativeApp.onlineEduApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3559414A283272C0001C3BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactNativeApp.onlineEduAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/onlineEduApp.app/Contents/MacOS/onlineEduApp";
+			};
+			name = Debug;
+		};
+		3559414B283272C0001C3BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactNativeApp.onlineEduAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/onlineEduApp.app/Contents/MacOS/onlineEduApp";
+			};
+			name = Release;
+		};
+		3559414D283272C0001C3BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactNativeApp.onlineEduAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = onlineEduApp;
+			};
+			name = Debug;
+		};
+		3559414E283272C0001C3BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactNativeApp.onlineEduAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = onlineEduApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3559411C283272B7001C3BCA /* Build configuration list for PBXProject "onlineEduApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35594144283272C0001C3BCA /* Debug */,
+				35594145283272C0001C3BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35594146283272C0001C3BCA /* Build configuration list for PBXNativeTarget "onlineEduApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35594147283272C0001C3BCA /* Debug */,
+				35594148283272C0001C3BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35594149283272C0001C3BCA /* Build configuration list for PBXNativeTarget "onlineEduAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3559414A283272C0001C3BCA /* Debug */,
+				3559414B283272C0001C3BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3559414C283272C0001C3BCA /* Build configuration list for PBXNativeTarget "onlineEduAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3559414D283272C0001C3BCA /* Debug */,
+				3559414E283272C0001C3BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35594119283272B7001C3BCA /* Project object */;
+}
