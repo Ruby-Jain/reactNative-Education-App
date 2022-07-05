@@ -17,9 +17,9 @@ const UserData2 = ({ navigation, route }) => {
     const userCard = ({ item }) => {
 
         return (
-            
+
             <View style={styles.mainContainer}>
-            <SearchStu/>    
+
 
                 <View style={styles.userContainer}>
                     <View>
@@ -39,11 +39,15 @@ const UserData2 = ({ navigation, route }) => {
         );
     };
     return (
-        <FlatList
-            keyExtractor={(item) => item.id}
-            data={Users}
-            renderItem={userCard}
-        />
+        <>
+            <SearchStu student={userCard}/>
+            <FlatList
+                keyExtractor={(item) => item.id}
+                data={Users}
+                renderItem={userCard}
+            />
+        </>
+
     );
 };
 

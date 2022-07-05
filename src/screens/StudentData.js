@@ -1,6 +1,7 @@
-import { View, Text, Button, FlatList,ActivityIndicator } from "react-native";
+import { View, Text, Button, FlatList, ActivityIndicator } from "react-native";
 import React, { useState, useEffect } from "react";
 import { SearchBar } from "react-native-elements";
+//import * as fs from "fs/promises";
 //import studentsData from './studentsData.txt';
 //import raw from 'raw.macro';
 
@@ -10,7 +11,7 @@ const StudentData = () => {
     const [data, setData] = useState("");
     const [searchText, setSearchText] = useState("");
     const [loading, setLoading] = useState(true);
-
+    const [text, setText] = useState("");
 
     const renderHeader = (text) => {
         return (
@@ -20,7 +21,7 @@ const StudentData = () => {
                 round
                 editable={true}
                 value={text}
-                onChangeText={text => text}
+                ChangeText={() => setText(text)}
             />
         )
     }
@@ -38,29 +39,28 @@ const StudentData = () => {
          .then((contents)=>{
            var contentString=contents.toString();
          } */
-    const getText = () => {
-        loading
-        var RNFS = require('react-native-fs');
-        var path1 = '../../assets/StudentsData.txt';
-        var path2 = '../../assets/StudentsData2.txt';
-
-        RNFS.readFile().map()
-            .then((contents) => {
-                var fileContent = contents.text();
-                for (var i = 0; i < fileContent.length(); i++) {
-                    var text = fileContent.IndexAt(i);
-                    console.log(text);
-                    setData(text);
-                    setLoading(false);
-                }
-            })
-        
-    }
-            /* if (sdata.value.length() > 0) {
-                console.log(sdata);
-                setData(sdata);
+    /* const getText = () => { */
+    /* loading
+    var RNFS = require('react-native-fs');
+    var path1 = '../../assets/StudentsData.txt';
+    var path2 = '../../assets/StudentsData2.txt';
+    const path = [path1, path2];
+    RNFS.readFile().map().path((contents) => {
+            var fileContent = contents.text();
+            for (var i = 0; i < fileContent.length(); i++) {
+                var text = fileContent.IndexAt(i);
+                console.log(text);
+                setData(text);
                 setLoading(false);
-            } */
+            }
+        }) */
+
+
+    /* if (sdata.value.length() > 0) {
+        console.log(sdata);
+        setData(sdata);
+        setLoading(false);
+    } */
 
     //setData(sdata);
     /* catch {
@@ -77,10 +77,15 @@ const StudentData = () => {
             data={data}
             renderItem={() => {
                 return (
-                    <View>
-                    <ActivityIndicator size="small" color="#0000ff" />
-                        <Text>{getText}</Text>
-                    </View>
+                    <Text>
+                        {useEffect(async () => {
+                            const res = await fetch('studentsData.txt');
+                            const studata = await res.text();
+                            for (var i = 0; i < studata.length(); i++) {
+                                setData(charAt(i));
+                            }
+                        })}
+                    </Text>
                 );
             }}
             keyExtractor={item => item}

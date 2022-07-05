@@ -48,6 +48,7 @@ const Course = ({ navigation }) => {
       keyExtractor={(item) => item.id}
       data={Courses}
       renderItem={courseCard}
+      
     />
   );
 };
