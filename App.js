@@ -10,10 +10,10 @@ import CourseDetails from "./src/screens/CourseDetails";
 import StudentData from "./src/screens/StudentData";
 import ShoppingCartIcon from "./src/screens/ShoppingCartIcon";
 import SearchStu from "./src/screens/SearchStu";
-/* import { Provider } from "react-redux";
-import store from "./src/store";
-import Add from "./src/redux/actions/action";
-import rootreducer from "./src/redux/reducers/rootreducer"; */
+/*  */
+
+/* import Add from "./src/redux/actions/action";
+import rootreducer from "./src/redux/reducers/rootreducer";  */
 
 
 export default function App() {
@@ -22,6 +22,7 @@ export default function App() {
     return (
         
             <NavigationContainer>
+           
                 <Stack.Navigator initialRouteName="Home">
                     {/* home screen  */}
                     <Stack.Screen
@@ -84,8 +85,9 @@ export default function App() {
                             headerTitleAlign: "center",
                         }}
                     />
-
+                   
                     {/* CourseDetails Screen  */}
+                  
                     <Stack.Screen
                         name="CourseDetails"
                         component={CourseDetails}
@@ -99,6 +101,7 @@ export default function App() {
                             headerTitleAlign: "center",
                         }}
                     />
+                     
                     <Stack.Screen
                         name="Text Data"
                         component={StudentData}
@@ -111,8 +114,10 @@ export default function App() {
                         }}
                     />
                 </Stack.Navigator>
+                
             </NavigationContainer>
-      
+            
+            
 
     );
 }

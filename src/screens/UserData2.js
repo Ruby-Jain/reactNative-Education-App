@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import React, { useState } from "react";
 import Users from "../api/usersapi";
-import { Ionicons } from '@expo/vector-icons';
+//import { Ionicons } from '@expo/vector-icons';
 import SearchStu from "./SearchStu";
 
 const UserData2 = ({ navigation, route }) => {
@@ -39,14 +39,14 @@ const UserData2 = ({ navigation, route }) => {
         );
     };
     return (
-        <>
-            <SearchStu student={userCard}/>
-            <FlatList
-                keyExtractor={(item) => item.id}
-                data={Users}
-                renderItem={userCard}
-            />
-        </>
+
+        <FlatList
+            ListHeaderComponent={SearchStu}
+            keyExtractor={(item) => item.id}
+            data={Users}
+            renderItem={userCard}
+        />
+
 
     );
 };

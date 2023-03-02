@@ -1,6 +1,6 @@
 const Users = [
     {
-      id: "1",
+      id: 1,
       name: "Shivani Jain",
       image: require("../../assets/course/user1.jpg"),
       description:
@@ -9,7 +9,7 @@ const Users = [
       price: 5000,
     },
     {
-      id: "2",
+      id: 2,
       name: "Jasmine kaur",
       image: require("../../assets/course/user2.jpg"),
       description:
@@ -18,7 +18,7 @@ const Users = [
       price: 3000,
     },
     {
-      id: "3",
+      id: 3,
       name: "Rohit Yadav",
       image: require("../../assets/course/user3.jpg"),
       description:
@@ -27,7 +27,7 @@ const Users = [
       price: 1000,
     },
     {
-      id: "4",
+      id: 5,
       name: "Priyanka JAIN",
       image: require("../../assets/course/user5.jpg"),
       description:
@@ -36,7 +36,7 @@ const Users = [
       price: 6000,
     },
     {
-      id: "5",
+      id: 6,
       name: "Shubham Agarwal",
       image: require("../../assets/course/user6.jpg"),
       description:

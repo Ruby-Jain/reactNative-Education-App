@@ -3,8 +3,10 @@ import React from "react";
 import { TouchableOpacity, View, StyleSheet, Text, Image } from "react-native";
 
 const Menu = () => {
+    
   const navigation = useNavigation();
   return (
+   
     <View style={styles.menuContainer}>
       <TouchableOpacity
         style={styles.buttonStyle}
@@ -62,6 +64,7 @@ const Menu = () => {
       </TouchableOpacity>
       
     </View>
+    
   );
 };
 

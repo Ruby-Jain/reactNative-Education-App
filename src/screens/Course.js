@@ -8,13 +8,16 @@ import {
 } from "react-native";
 import React from "react";
 import Courses from "../api/Courseapi";
-import ShoppingCartIcon from "./ShoppingCartIcon";
+//import ShoppingCartIcon from "./ShoppingCartIcon";
+
 
 
 const Course = ({ navigation }) => {
+    
 
   const courseCard = ({ item }) => {
     return (
+        
       <View style={styles.mainContainer}>
         <View style={styles.courseContainer}>
           <View>
@@ -40,6 +43,7 @@ const Course = ({ navigation }) => {
           </View>
         </View>
       </View>
+      
     );
   };
 
@@ -48,11 +52,9 @@ const Course = ({ navigation }) => {
       keyExtractor={(item) => item.id}
       data={Courses}
       renderItem={courseCard}
-      
     />
   );
 };
-
 const styles = StyleSheet.create({
   cardImage: {
     width: "100%",

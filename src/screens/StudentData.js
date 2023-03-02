@@ -78,17 +78,17 @@ const StudentData = () => {
             renderItem={() => {
                 return (
                     <Text>
-                        {useEffect(async () => {
-                            const res = await fetch('studentsData.txt');
-                            const studata = await res.text();
+                        {useEffect(() => {
+                            const res = fetch('../../assets/studentsData.txt');
+                            const studata = res.trim().text();
                             for (var i = 0; i < studata.length(); i++) {
-                                setData(charAt(i));
+                                console.log(IndexAt(i));
                             }
-                        })}
+                        },[])}
                     </Text>
                 );
             }}
-            keyExtractor={item => item}
+            keyExtractor={data=> data}
         />
 
     );
